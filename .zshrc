@@ -25,6 +25,7 @@ if ! zgen saved; then
 
   ## zgen plugins
   zgen load unixorn/autoupdate-zgen
+  zgen load zsh-users/zsh-completions
 
   ## zsh themes
   zgen load romkatv/powerlevel10k powerlevel10k

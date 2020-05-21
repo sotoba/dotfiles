@@ -13,10 +13,10 @@ brew "jq"
 brew "go"
 brew "rbenv"
 brew "pyenv"
+brew "direnv"
+
 brew "neovim"
-
 brew "thefuck"
-
 brew "the_silver_searcher"
 
 brew "yadm"

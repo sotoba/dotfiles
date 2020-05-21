@@ -7,4 +7,8 @@ if [ "$system_type" = "Darwin" ]; then
     echo "Installing homebrew"
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
   fi
+
+  if ! find ${HOME}/Library/Fonts/Cica-* > /dev/null 2>&1; then
+    /bin/bash ${HOME}/.config/yadm/scripts/darwin/cica_setup.sh
+  fi
 fi

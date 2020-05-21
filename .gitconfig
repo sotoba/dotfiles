@@ -1,0 +1,20 @@
+[user]
+	email = sotoba.s+git@gmail.com
+	name = sotoba
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[alias]
+	s = status
+	di = diff
+	cm = commit
+	pr = pull --rebase
+	co = checkout
+	cb = checkout -b
+	sw = switch
+	swc = switch -c
+	br = branch
+[ghq]
+	root = /Users/sotoba/.ghq
