@@ -1,0 +1,9 @@
+# Keyboard tools
+tap "qmk/qmk"
+brew "qmk"
+brew "avrdude"
+cask "kicad"
+
+# Games
+cask "poi"
+cask "steam"
