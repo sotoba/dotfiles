@@ -47,3 +47,31 @@ fi
 
 # add fucking completions
 eval $(thefuck --alias)
+
+# alias
+## gnu utils alias
+alias xargs='gxargs'
+alias find='gfind'
+alias sed='gsed'
+alias diff='colordiff'
+
+alias beck='bundle exec kitchen'
+alias nv='nvim'
+alias ash='ssh -F ~/.ssh/assh_config'
+alias ku='kubectl'
+alias kux='kubectx'
+alias kuns='kubens'
+
+# function
+gd() {
+  DIR=$(ghq list -p | peco --prompt "GIT REPOSITORY>")
+  [ -n "$DIR" ] && cd $DIR
+}
+
+gs() {
+  git branch | peco --prompt "GIT BRANCH>" | head -n 1 | xargs git switch
+}
+
+gsc() {
+  git switch -c $1
+}

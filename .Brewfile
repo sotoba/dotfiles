@@ -22,6 +22,7 @@ brew "direnv"
 brew "neovim"
 brew "thefuck"
 brew "the_silver_searcher"
+brew "mdv"
 
 cask "alfred"
 cask "dash"

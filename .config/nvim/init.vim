@@ -11,13 +11,6 @@ set ambiwidth=double
 set expandtab
 set shiftwidth=2
 
-" General visual settings
-set termguicolors
-colorscheme iceberg
-set list
-set number
-set cursorline
-
 " Syntax settings
 filetype plugin indent on
 syntax on
@@ -95,3 +88,10 @@ let g:lightline = {
 function! LightlineReadonly()
   return &readonly ? "\ue0a2" : ''
 endfunction
+
+" General visual settings
+set termguicolors
+colorscheme iceberg
+set list
+set number
+set cursorline

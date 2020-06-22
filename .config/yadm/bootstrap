@@ -14,6 +14,17 @@ if [ "$system_type" = "Darwin" ]; then
   fi
 
   if ! find ${HOME}/Library/Fonts/Cica-* > /dev/null 2>&1; then
+    echo "Instll Cica fonts"
     /bin/bash ${HOME}/.config/yadm/scripts/darwin/cica_setup.sh
+  fi
+
+  if ! find ${HOME}/.zgen > /dev/null 2>&1; then
+    echo "Install zgen"
+    git clone https://github.com/tarjoilija/zgen.git "${HOME}/.zgen"
+  fi
+
+  if find ${HOME}/.iterm2 > /dev/null 2>&1; then
+    echo "Setting iTerm preference directory"
+    defaults write com.googlecode.iterm2 PrefsCustomFolder "$HOME/.iterm2"
   fi
 fi
