@@ -2,10 +2,13 @@
 "" default encodings
 set encoding=utf-8
 scriptencoding utf-8
-"" OpenFile Encodings
+"" open file encodings
 set fileencodings=utf-8
 "" CJK font width
 set ambiwidth=double
+"" Lnaguage settings
+language en_US.UTF-8
+language message C
 
 " Indent Settings
 set expandtab
@@ -40,6 +43,8 @@ call plug#begin('~/.config/nvim/plugins')
   Plug 'ctrlpvim/ctrlp.vim'
   "" Indent visualize
   Plug 'Yggdroot/indentLine'
+  "" Markdown Viewer
+  Plug 'previm/previm'
 
   "" vim-lsp
   Plug 'prabirshrestha/async.vim'
@@ -75,6 +80,10 @@ nnoremap <silent><ESC><ESC> :nohl<CR>
 " https://github.com/mileszs/ack.vim#i-dont-want-to-jump-to-the-first-result-automatically
 cnoreabbrev Ack Ack!
 nnoremap <Leader>a :Ack!<Space>
+
+" previm settings
+" open with Google Chrome
+let g:previm_open_cmd = 'open -a Google\ Chrome'
 
 " lightline settings
 let g:lightline = {

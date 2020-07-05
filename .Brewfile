@@ -18,6 +18,7 @@ brew "go"
 brew "rbenv"
 brew "pyenv"
 brew "direnv"
+brew "zsh"
 
 brew "neovim"
 brew "thefuck"
