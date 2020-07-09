@@ -55,6 +55,7 @@ alias find='gfind'
 alias sed='gsed'
 alias diff='colordiff'
 
+## original alais
 alias beck='bundle exec kitchen'
 alias nv='nvim'
 alias ash='ssh -F ~/.ssh/assh_config'
@@ -62,7 +63,7 @@ alias ku='kubectl'
 alias kux='kubectx'
 alias kuns='kubens'
 
-# function
+# git function
 gd() {
   DIR=$(ghq list -p | peco --prompt "GIT REPOSITORY>")
   [ -n "$DIR" ] && cd $DIR

@@ -13,12 +13,17 @@ brew "git"
 brew "jq"
 brew "tig"
 brew "httpie"
+brew "colordiff"
 
 brew "go"
 brew "rbenv"
 brew "pyenv"
 brew "direnv"
 brew "zsh"
+
+# gnu utils
+brew "findutils"
+brew "gnu-sed"
 
 brew "neovim"
 brew "thefuck"
