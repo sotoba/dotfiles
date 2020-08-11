@@ -63,6 +63,9 @@ alias ku='kubectl'
 alias kux='kubectx'
 alias kuns='kubens'
 
+# encode
+export LANG='ja_JP.UTF-8'
+
 # git function
 gd() {
   DIR=$(ghq list -p | peco --prompt "GIT REPOSITORY>")
