@@ -716,7 +716,7 @@
 		</dict>
 	</dict>
 	<key>Default Bookmark Guid</key>
-	<string>691C05D3-DFCC-456E-A83A-29F01641A546</string>
+	<string>E78ADDF8-4D80-4923-905B-8AE34DA803B7</string>
 	<key>DimBackgroundWindows</key>
 	<false/>
 	<key>DimInactiveSplitPanes</key>
@@ -852,7 +852,7 @@
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>558 540 592 584 0 0 1920 1178 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>365 336 1810 747 0 0 2560 1440 </string>
+	<string>322 147 1378 804 0 0 2560 1417 </string>
 	<key>NeverWarnAboutShortLivedSessions_3E13AA9E-4ACA-4315-8DC1-AF9A32A64806</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_691C05D3-DFCC-456E-A83A-29F01641A546</key>
@@ -5099,7 +5099,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>AFB633A1-7AD6-4922-8135-63BB3B1704B0</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>50</integer>
+	<integer>52</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -5870,7 +5870,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>~/.iterm2</string>
+	<string>/Users/sotoba/.iterm2</string>
 	<key>PreserveWindowSizeWhenTabBarVisibilityChanges</key>
 	<false/>
 	<key>Print In Black And White</key>
@@ -5896,7 +5896,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-06-21T15:24:55Z</date>
+	<date>2020-08-15T14:52:08Z</date>
 	<key>SUSkippedVersion</key>
 	<string>3.3.8</string>
 	<key>SUUpdateRelaunchingMarker</key>
