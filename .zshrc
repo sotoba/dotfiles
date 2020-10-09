@@ -17,6 +17,8 @@ if ! zgen saved; then
 
   # specify plugins here
   zgen oh-my-zsh
+  zgen oh-my-zsh plugins/docker
+  zgen oh-my-zsh plugins/docker-compose
 
   ## zgen default plugins
   zgen load zsh-users/zsh-completions
